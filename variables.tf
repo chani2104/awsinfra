@@ -1,5 +1,5 @@
 variable "region" {
-  default = "ap-northeast-2"
+  default = "us-west-1"
 }
 
 variable "project" {

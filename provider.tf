@@ -7,9 +7,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "myapp-terraform-state-20260429"
+    bucket         = "myapp-terraform-state-20260429-ljc"
     key            = "training/lab06/terraform.tfstate"
-    region         = "ap-northeast-2"
+    region         = "us-west-1"
     encrypt        = true
     dynamodb_table = "terraform-lock"
   }
